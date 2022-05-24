@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Clinica Ortiz</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+        <!-- Libreria de Fuente de google -->  
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap" rel="stylesheet">
+        <!-- Librerias de Bootstrap -->
+        <link rel="stylesheet" href="../css/bootstrap.min.css" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    </head>
+ 
+<body class="container bg-black">
+    <!-- contenedor de toda la paginas -->
+    <div class="container-xxl text-center">
+            
+        <!-- Cinta de contacto -->
+        <div class="row m-2-xxl bg-black">
+            <div class="col text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-day" viewBox="0 0 16 16">
+                    <path d="M4.684 11.523v-2.3h2.261v-.61H4.684V6.801h2.464v-.61H4v5.332h.684zm3.296 0h.676V8.98c0-.554.227-1.007.953-1.007.125 0 .258.004.329.015v-.613a1.806 1.806 0 0 0-.254-.02c-.582 0-.891.32-1.012.567h-.02v-.504H7.98v4.105zm2.805-5.093c0 .238.192.425.43.425a.428.428 0 1 0 0-.855.426.426 0 0 0-.43.43zm.094 5.093h.672V7.418h-.672v4.105z"/>
+                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                </svg> Lunes a Domingo, 24 hrs </i>
+            </div>
+            <div class="col text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                </svg> 9611234567 / 9616112345
+            </div>
+            <div class="col text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                </svg> Clinicaortiz@gmail.com
+            </div>
+        </div>
+
+        <!-- menu de navegación -->
+        <nav class="navbar navbar-expand-lg bg-secondary">
+            <div class="container-xxl text-center" >
+        
+                <!-- logo princiapl clinica -->
+                <a class="navbar-brand" href="..\index.html">
+                    <img src="../recursos/Logoclinicaortiz.png" alt="Logo Clinica" width="90px;">
+                </a>
+                                        
+                <!-- boton de menu version pequeña -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#navbarTogglerDemo03" 
+                    aria-controls="navbarTogglerDemo03" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- elementos del menu -->
+                <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark active" aria-current="page" href="\index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="conocenos.html">Conocenos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="citas.html">Citas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="contactanos.html">Contactanos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="avisoprivacidad.html">Aviso de Privacidad</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex bg-info" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>  
+        
+        <!-- elementos del menu -->
+        <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-dark active" aria-current="page" href="/index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="/paginas/conocenos.html">Conocenos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="paginas/servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="paginas/citas.html">Citas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="paginas/contactanos.html">Contactanos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="paginas/avisoprivacidad.html">Aviso de Privacidad</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+
+        <!-- Contenedor informacion principal -->
+        <div class="container-expand-xxl bg-secondary text-white">
+            <div class="row">
+                <!-- historia clinica -->
+                <div class="col">
+                    <img src="../recursos/Historia_hospital.jpg" alt="Historia" width="450vh">
+                    <h2>Historia</h2>
+                    <hr>
+                        <p>Somos una institución de salud con más 60 años de experiencia, que ofrece calidad de vida a sus pacientes a través de una completa y sólida estructura hospitalaria, recursos humanos calificados y tecnología de vanguardia, ofreciendo los mejores servicios con la más alta calidad.</p>
+                        <p>Fundado en 1987 por Don Pedro de Jesús Ortiz Pérez, con el sueño de proveer a los ciudadanos de la capital, un servicio de salud con calidad, ética y sentido humano, bajo en nombre de Sanatorio Rojas. Al día de hoy, el sueño de su fundador se caracteriza por ser un Hospital que ofrece el mejor servicio médico, incluyendo cirugías, tratamientos, unidad de cuidados intensivos, cuneros, hospitalización, atención de urgencias, consultas ambulatorias y otros servicios.</p>
+                </div>
+                
+                <!-- filosofia clinica -->
+                <div class="col">
+                    <div class="card">
+                        <div class="card-header text-black">
+                            Nuestra Filosofía
+                        </div>
+                        
+                        <!-- Misión -->
+                        <div class="card-body">
+                            <h5 class="card-title text-black">Misión</h5>
+                            <p class="card-text text-black">Actuamos con amor y profesionalismo en el cuidado y la protección de la salud de cada persona.</p>
+                        </div>
+
+                        <!-- Visión -->
+                        <div class="card-body">
+                            <h5 class="card-title text-black">Visión</h5>
+                            <p class="card-text text-black">Ser la principal opción de salud hospitalaria en el estado de Chiapas, expandiendo nuestra labor a toda la república mexicana.</p>   
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <div class="card-header text-black">
+                            Nuestros Valores
+                        </div>
+                        
+                        <!-- Valor Humanitarismo -->
+                        <div class="card-body">
+                            <h5 class="card-title text-black">Humanitarismo</h5>
+                            <p class="card-text text-black">Atender a los pacientes con sensibilidad, calidez y respeto a su condición de enfermo.</p>
+                        </div>
+
+                        <!-- Valor Responsabilidad Social -->
+                        <div class="card-body">
+                            <h5 class="card-title text-black">Responsabilidad Social</h5>
+                            <p class="card-text text-black">Responsabilidad social que asegure el beneficio a la sociedad, principalmente a grupos vulnerables.</p>
+                        </div>
+                        <!-- Valor Profesionalismo -->
+                        <div class="card-body">
+                            <h5 class="card-title text-black">Profesionalismo</h5>
+                            <p class="card-text text-black">Todo el personal que integra este organismo prestará sus servicios con altos niveles de competitividad siempre pensando en recuperar y preservar la salud ocular en beneficio del paciente y de la comunidad.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Videos y personal  -->
+            <div class="row">
+                <!-- videos Clinica -->
+                <div class="col">
+                    <h2>A traves del Tiempo</h2>
+                    <hr>
+                    <!-- Video 1 -->
+                    <span>video 1</span>
+                    <iframe width="360" height="215" src="https://www.youtube.com/embed/Snm0n8ct3jE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+                    <p class="card-text">Es el único hospital en el sureste avalado por la "FUNDACIÓN MEXICANA DEL CORAZON" esto permite brindar atención médica en todas las especialidades a población de escasos recursos, a través de dicha fundación, previo análisis estricto por lineamientos ya establecidos para otorgar este tipo de apoyos. </p>
+
+                    <!-- Video 2 -->
+                    <span>video 2</span>
+                        <iframe width="360" height="215" src="https://www.youtube.com/embed/4LQFONNFeNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <!-- <iframe src="https://www.youtube.com/embed/hDhmsbOFaEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                        </iframe> -->
+                        <p class="card-text">La Clinica Ortiz, fue estructurado bajo un modelo de atención médica a la población abierta, en donde se otorgara servicios médicos de todas las especialidades una vez que los padecimientos cardiovasculares van ligados a diversas patologías crónico degenerativas que hoy en día forman parte de la morbi-mortalidad en la salud de nuestro país y estado</p>
+
+                    <!-- Video 3 -->
+                    <span>video 3</span>
+                    <iframe width="360" height="215" src="https://www.youtube.com/embed/4LQFONNFeNg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <!-- <iframe src="https://www.youtube.com/embed/hDhmsbOFaEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe> -->
+                    <p class="card-text">La Clinica Ortiz, es la única clinica clasificado de acuerdo a los supervisiones realizadas por las instancias correspondientes como "CLINICA VERDE" una vez que la infraestructura fue creada a utilizar las fuentes de recurso natural para la luz eléctrica dentro y fuera de las instalaciones del Hospital.</p>
+                </div>
+                
+                <!-- Medicos de la Clinica -->
+                <div class="col">
+                    <h2>
+                        Nuestros Medicos
+                    </h2>
+                    <hr>
+                    <!-- medico 1 --> 
+                    <div class="card" style="width: 22rem;">
+                        <img src="/Version_Bootstrap/recursos/Medico2.jpg" class="card-img-top" alt="Medico Especialista3">
+                        <div class="card-body bg-info">
+                            <span>Dr. Marco Medina Cruz</span>
+                            <span>Especialista en Estrabismo y Oftalmopediatría</span>
+                            <ul>                            
+                                <li class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                </svg> 961 12 1 11 11 </li>
+                                <li class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                </svg> 961 155 7701</li>
+                                <li class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                                </svg> drmren100@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- medico 2 -->
+                    <div class="card" style="width: 22rem;">
+                        <img src="/Version_Bootstrap/recursos/Medico2.jpg" class="card-img-top" alt="Medico Especialista3">
+                        <div class="card-body bg-info">
+                            <span>Dra. Marcela Pérez Medina</span>
+                            <span>Imagenología Diagnóstica y Terapéutica</span>
+                            <ul>                            
+                                <li class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                </svg> 961 12 1 11 12 </li>
+                                <li class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                </svg> 961 155 7702</li>
+                                <li class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                                </svg> drmren200@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>               
+                    
+                    <!-- medico 3 -->
+                    <div class="card" style="width: 22rem;">
+                        <img src="/Version_Bootstrap/recursos/Medico2.jpg" class="card-img-top" alt="Medico Especialista3">
+                        <div class="card-body bg-info">
+                            <span>Dr. Mario Montoya Mendez</span>
+                            <span>Especialidad en Medicina Interna.</span>
+                            <ul>                            
+                                <li class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                </svg> 961 12 1 11 13 </li>
+                                <li class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                </svg> 961 155 7703</li>
+                                <li class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                                </svg> drmren300@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                        
+                </div>
+
+                <!-- Personal de la Clinica -->
+                <div class="col">
+                    <h2>
+                        Personal Admvo
+                    </h2>
+                    <hr>
+                    <!-- personal 1 --> 
+                    <div class="card" style="width: 22rem;">
+                        <img src="/Version_Bootstrap/recursos/Personal1.jpg" class="card-img-top" alt="Directivo1">
+                        <div class="card-body bg-info">
+                            <span>Dr. Marcela Medina Cruz</span>
+                            <span>Especialista en Estrabismo y Oftalmopediatría</span>
+                            <ul>                            
+                                <li class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                </svg> 961 12 1 11 14 </li>
+                                <li class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                </svg> 961 155 7704</li>
+                                <li class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                                </svg> drmren400@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- personal 2 -->
+                    <div class="card" style="width: 22rem;">
+                        <img src="/Version_Bootstrap/recursos/Personal2.jpg" class="card-img-top" alt="Directivo2">
+                        <div class="card-body bg-info">
+                            <span>Dra. Marcela Pérez Medina</span>
+                            <span>Imagenología Diagnóstica y Terapéutica</span>
+                            <ul>                            
+                                <li class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                </svg> 961 12 1 11 15 </li>
+                                <li class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                </svg> 961 155 7705</li>
+                                <li class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                                </svg> drmren500@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>               
+                    
+                    <!-- personal 3 -->
+                    <div class="card" style="width: 22rem;">
+                        <img src="/Version_Bootstrap/recursos/Personal3.jpg" class="card-img-top" alt="Directivo3">
+                        <div class="card-body bg-info">
+                            <span>Dr. Mario Montoya Mendez</span>
+                            <span>Especialidad en Medicina Interna.</span>
+                            <ul>                            
+                                <li class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                </svg> 961 12 1 11 16 </li>
+                                <li class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                                </svg> 961 155 7706</li>
+                                <li class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                                </svg> drmren600@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                        
+                </div>
+            </div> 
+        </div>
+        
+        <!-- Footer de la pagina -->
+        <div class="container-xxl text-center">
+            <!-- Footer de la pagina -->
+            <div class=" row text-center bg-secondary">
+                <!-- footer columna 1 -->
+                <div class="col">
+                    <ul class="list-group bg-secondary">
+                        <h5 class="display-7 text-center  text-light mt-2">Enlaces de Interes</h5>
+                        <hr>
+                        <li class="list-group-item bg-secondary">
+                            <a class="link-white bg-secondary list-group-item text-light"  href="#">Secretaria de Salud Federal</a>
+                        </li>
+                        <li class="list-group-item bg-secondary">
+                            <a class="link-white bg-secondary list-group-item text-light"  href="#">Secretaria de Salud Chiapas</a>
+                        </li>
+                        <li class="list-group-item bg-secondary">
+                            <a class="link-white bg-secondary list-group-item text-light"  href="#">Covid-19 y sus Variantes </a>
+                        </li>
+                        <li class="list-group-item bg-secondary">
+                            <a class="link-white bg-secondary list-group-item text-light"  href="#">Enfermedades Cronicas</a>
+                        </li>
+                        <li class="list-group-item bg-secondary">
+                            <a class="link-white bg-secondary list-group-item text-light"  href="#">Centros de ayuda Social</a>
+                        </li>
+                        <li class="list-group-item bg-secondary">
+                            <a class="link-white bg-secondary list-group-item text-light"  href="#">Secretaria de Bienestar social</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- footer columna 2 -->
+                <div class="col">
+                    <ul class="list-group bg-secondary">
+                        <h5 class="display-7 text-center  text-light mt-2">Videos de Interes</h5>
+                        <hr>
+                        <li class="list-group-item bg-secondary">
+                            <a class="link-white bg-secondary list-group-item text-light"  href="#">Cuerpo y mente saludable - Tips de Salud</a>
+                        </li>
+                        <li class="list-group-item bg-secondary">
+                            <a class="link-white bg-secondary list-group-item text-light"  href="#">Sencillos Consejos Para una Vida Sana </a>
+                        </li>
+                        <li class="list-group-item bg-secondary">
+                            <a class="link-white bg-secondary list-group-item text-light"  href="#">Covid-19 y sus Variantes en el mundo  </a>
+                        </li>
+                        <li class="list-group-item bg-secondary">
+                            <a class="link-white bg-secondary list-group-item text-light"  href="#">Estilo de vida saludables</a>
+                        </li>
+                        <li class="list-group-item bg-secondary">
+                            <a class="link-white bg-secondary list-group-item text-light"  href="#">Transtornos alimenticios</a>
+                        </li>
+                        <li class="list-group-item bg-secondary">
+                            <a class="link-white bg-secondary list-group-item text-light"  href="#">Cuidados paliativos a enfermos</a>
+                        </li>
+                    </ul>
+                </div>
+                    
+                <!-- footer columna 3 -->
+                <div class="col">
+                    <ul class="list-group bg-secondary">
+                        <h5 class="display-7 text-center  text-light mt-2">Ubicanos</h5>
+                        <hr>
+                        <li class="list-group-item bg-secondary">
+                            <p class="text-light">Av. Primera Norte Oriente #1234, Col. Conocida Tuxtla Gutiérrez, Chiapas, México</p>
+                        </li>            
+                    </ul>
+                </div>
+
+                <!-- footer columna 4 -->
+                <div class="col">
+                    <ul class="list-group bg-secondary">
+                        <h5 class="display-7 text-center  text-light mt-2">Como llegar</h5>
+                        <hr>
+                        <li class="list-group-item bg-secondary">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15281.457189083281!2d-93.1478524!3d16.7585416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ecd972d3b862c5%3A0x827919ece5fe8cec!2sEstafeta!5e0!3m2!1ses-419!2smx!4v1652300365275!5m2!1ses-419!2smx" width="380" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </li>                        
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- footer copyrigth -->
+            <div class="row">
+                <div class="col-xxl text-center bg-black text-white">
+                    <p>Derechos Reservados. -Iván Ortiz Ramírez</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- librerias JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/popper.min.js"></script>   
+
+</body>
+</html>

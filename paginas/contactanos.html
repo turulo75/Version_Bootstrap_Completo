@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Clinica Ortiz</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+        <!-- Libreria de Fuente de google -->  
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap" rel="stylesheet">
+        <!-- Librerias de Bootstrap -->
+        <link rel="stylesheet" href="../css/bootstrap.min.css" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    </head>
+
+<body class="container bg-secondary">
+    <!-- contenedor de toda la paginas -->
+    <div class="container-xxl text-center">
+            
+        <!-- Cinta de contacto -->
+        <div class="row m-2-xxl bg-black">
+            <div class="col text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-day" viewBox="0 0 16 16">
+                    <path d="M4.684 11.523v-2.3h2.261v-.61H4.684V6.801h2.464v-.61H4v5.332h.684zm3.296 0h.676V8.98c0-.554.227-1.007.953-1.007.125 0 .258.004.329.015v-.613a1.806 1.806 0 0 0-.254-.02c-.582 0-.891.32-1.012.567h-.02v-.504H7.98v4.105zm2.805-5.093c0 .238.192.425.43.425a.428.428 0 1 0 0-.855.426.426 0 0 0-.43.43zm.094 5.093h.672V7.418h-.672v4.105z"/>
+                    <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                </svg> Lunes a Domingo, 24 hrs </i>
+            </div>
+            <div class="col text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                    <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                </svg> 9611234567 / 9616112345
+            </div>
+            <div class="col text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                </svg> Clinicaortiz@gmail.com
+            </div>
+        </div>
+
+        <!-- menu de navegación -->
+        <nav class="navbar navbar-expand-lg bg-secondary">
+            <div class="container-xxl text-center" >
+        
+                <!-- logo princiapl clinica -->
+                <a class="navbar-brand" href="..\index.html">
+                    <img src="../recursos/Logoclinicaortiz.png" alt="Logo Clinica" width="90px;">
+                </a>
+                                        
+                <!-- boton de menu version pequeña -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#navbarTogglerDemo03" 
+                    aria-controls="navbarTogglerDemo03" 
+                    aria-expanded="false" 
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- elementos del menu -->
+                <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark active" aria-current="page" href="..\index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="conocenos.html">Conocenos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="citas.html">Citas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="contactanos.html">Contactanos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="avisoprivacidad.html">Aviso de Privacidad</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex bg-info" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>  
+        
+        <!-- elementos del menu -->
+        <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-dark active" aria-current="page" href="/index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="/paginas/conocenos.html">Conocenos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="paginas/servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="paginas/citas.html">Citas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="paginas/contactanos.html">Contactanos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="paginas/avisoprivacidad.html">Aviso de Privacidad</a>
+                </li>
+            </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+
+<h2>Formulario de contacto</h2>
+<hr>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <!-- Contenedor informacion principal -->
+        <div class="container-expand-xxl text-white">
+            
+            <form class="container-expand-xxl text-white">
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Nombre completo:</label>
+                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">                  
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Email:</label>
+                  <input type="email" class="form-control" id="exampleInputPassword1">
+                </div>                
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Telefono:</label>
+                    <input type="tel" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">                    
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Edad:</label>
+                    <input type="number" class="form-control" id="exampleInputPassword1">
+                </div>
+                  <div class="mb-3 form-check">
+                    <label class="form-check-label" for="exampleCheck1">Especialidad:</label>
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Selecciona una especialidad</option>
+                        <option value="1">Pediatria</option>
+                        <option value="2">Urgencias</option>
+                        <option value="3">traumatologia</option>
+                      </select>
+                  </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje: </label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escriba su Mensaje"></textarea>
+                </div>
+                
+                <div class="col-12">
+                    <button type="button btn-lg" class="btn btn-primary" >Enviar </button>
+                </div>
+            </form>
+
+            </div>
+        </div>
+    </div>
+<hr>
+
+
+                
+            <!-- Footer de la pagina -->
+            <div class="container-xxl text-center">
+            <!-- Footer de la pagina -->
+            <div class=" row text-center bg-secondary">
+                <!-- footer columna 1 -->
+                <div class="col">
+                    <ul class="list-group bg-secondary">
+                        <h5 class="display-7 text-center  text-light mt-2">Enlaces de Interes</h5>
+                        <hr>
+                        <li class="list-group-item bg-secondary">
+                            <a class="link-white bg-secondary list-group-item text-light"  href="#">Secretaria de Salud Federal</a>                            </li>
+                        <li class="list-group-item bg-secondary">
+                            <a class="link-white bg-secondary list-group-item text-light"  href="#">Secretaria de Salud Chiapas</a>
+                        </li>
+                        <li class="list-group-item bg-secondary">
+                            <a class="link-white bg-secondary list-group-item text-light"  href="#">Covid-19 y sus Variantes </a>
+                        </li>
+                        <li class="list-group-item bg-secondary">                                <a class="link-white bg-secondary list-group-item text-light"  href="#">Enfermedades Cronicas</a>
+                        </li>
+                        <li class="list-group-item bg-secondary">
+                            <a class="link-white bg-secondary list-group-item text-light"  href="#">Centros de ayuda Social</a>
+                        </li>
+                        <li class="list-group-item bg-secondary">
+                            <a class="link-white bg-secondary list-group-item text-light"  href="#">Secretaria de Bienestar social</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- footer columna 2 -->
+                <div class="col">
+                    <ul class="list-group bg-secondary">
+                        <h5 class="display-7 text-center  text-light mt-2">Videos de Interes</h5>
+                        <hr>
+                        <li class="list-group-item bg-secondary">
+                            <a class="link-white bg-secondary list-group-item text-light"  href="#">Cuerpo y mente saludable - Tips de Salud</a>
+                        </li>
+                        <li class="list-group-item bg-secondary">
+                            <a class="link-white bg-secondary list-group-item text-light"  href="#">Sencillos Consejos Para una Vida Sana </a>
+                        </li>
+                        <li class="list-group-item bg-secondary">
+                            <a class="link-white bg-secondary list-group-item text-light"  href="#">Covid-19 y sus Variantes en el mundo  </a>
+                        </li>
+                        <li class="list-group-item bg-secondary">
+                            <a class="link-white bg-secondary list-group-item text-light"  href="#">Estilo de vida saludables</a>
+                        </li>
+                        <li class="list-group-item bg-secondary">
+                            <a class="link-white bg-secondary list-group-item text-light"  href="#">Transtornos alimenticios</a>
+                        </li>
+                        <li class="list-group-item bg-secondary">
+                            <a class="link-white bg-secondary list-group-item text-light"  href="#">Cuidados paliativos a enfermos</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- footer columna 3 -->
+                <div class="col">
+                    <ul class="list-group bg-secondary">
+                        <h5 class="display-7 text-center  text-light mt-2">Ubicanos</h5>
+                        <hr>
+                        <li class="list-group-item bg-secondary">
+                            <p class="text-light">Av. Primera Norte Oriente #1234, Col. Conocida Tuxtla Gutiérrez, Chiapas, México</p>
+                        </li>            
+                    </ul>
+                </div>
+
+                <!-- footer columna 4 -->
+                <div class="col">
+                    <ul class="list-group bg-secondary">
+                        <h5 class="display-7 text-center  text-light mt-2">Como llegar</h5>
+                        <hr>
+                        <li class="list-group-item bg-secondary">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15281.457189083281!2d-93.1478524!3d16.7585416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ecd972d3b862c5%3A0x827919ece5fe8cec!2sEstafeta!5e0!3m2!1ses-419!2smx!4v1652300365275!5m2!1ses-419!2smx" width="380" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </li>                        
+                    </ul>
+                </div>
+            </div>
+                        
+            <!-- footer copyrigth -->
+            <div class="row">
+                <div class="col-xxl text-center bg-black text-white">
+                    <p>Derechos Reservados. -Iván Ortiz Ramírez</p>
+                </div>
+            </div>
+        </div>            
+    </div>
+        
+    <!-- librerias JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/popper.min.js"></script>   
+</body>
+</html>
+        
+        
+        
+

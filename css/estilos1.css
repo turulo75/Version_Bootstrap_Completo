@@ -1,0 +1,67 @@
+.bi{
+    font-size:2em;
+}
+
+
+.col a{
+    text-decoration: none;
+}
+
+/* .navbar, .container-expand-lg {
+    background-color: #82afb0;
+} */
+/* ----------------------------------*/
+/* --------   Medias Query   ------- */
+/* ----------------------------------*/
+
+@media (max-width: 700px) {
+    .container{
+        background-color: rgb(112, 31, 31);
+    }
+    .nav__main ul.nav__menu{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #2f3640;
+        height: 100%;
+        padding: 30px;
+        opacity: .9;
+        transform: translateX(-400px);
+        transition: transform .5s ease-in-out;
+    }
+
+    .nav__main ul.nav__menu.show{
+        transform: translateX(-20px);
+    }
+
+    .nav__main ul.nav__menu li{
+        padding: 20px;
+        border-bottom: #0f0e0f solid 1px;
+        font-size: 14px;
+    }
+
+    .nav__main ul.nav__Menu--search{
+        margin-right: 40px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .container{
+        background-color: rgb(30, 211, 27);
+    }
+    .nav__main ul.nav__menu{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: aquamarine;
+        height: 100%;
+        padding: 30px;
+        opacity: .9;
+        transform: translateX(-400px);
+    }
+
+
+}
